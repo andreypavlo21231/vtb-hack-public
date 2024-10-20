@@ -12,6 +12,8 @@
   --mainTitleColorInverted: #000; /* Инвертированный цвет */
   --authButtonColorTextInverted: #fff; /* Инвертированный цвет */
   --authButtonBackgroundInverted: #2148C0;
+  --floatingLabelColorText: #fff;
+  --formInputColor: #fff;
 }
 
 body {
@@ -64,6 +66,10 @@ a, span, p, input, label, button {
   margin-top: 16px;
   width: 95%;
   margin-bottom: 60px;
+}
+
+.worker__card-description {
+  word-wrap: break-word;
 }
 
 @font-face {
